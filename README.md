@@ -8,3 +8,4 @@ you do face recognition on a folder of images from the command line!
 
 
 https://github.com/davisking/dlib/issues/2671
+https://face-recognition.readthedocs.io/en/latest/face_recognition.html
