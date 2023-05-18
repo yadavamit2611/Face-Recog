@@ -19,12 +19,10 @@ ignatius_face_encodings = face_recognition.face_encodings(ignatius_image)[0]
 akshay_image = face_recognition.load_image_file('images/samples/akshay.jpg')
 akshay_face_encodings = face_recognition.face_encodings(akshay_image)[0]
 
-devi_image = face_recognition.load_image_file('images/samples/devi.jpg')
-devi_face_encodings = face_recognition.face_encodings(devi_image)[0]
 
-known_face_encodings = [amit_face_encodings,ignatius_face_encodings,akshay_face_encodings,devi_face_encodings]
+known_face_encodings = [amit_face_encodings,ignatius_face_encodings,akshay_face_encodings]
 
-known_face_names = ["Amit","Ignatius","Akshay","Devi"]
+known_face_names = ["Amit","Ignatius","Akshay"]
 
 while(True):
 
